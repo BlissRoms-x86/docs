@@ -2,11 +2,21 @@
 description: Install Bliss OS from Windows operating system
 ---
 
-## Install Bliss OS from Windows
+# Install Bliss OS from Windows
+
+## Introduction
 
 **This is the current recommended method for beginners!**
 
 We recommend beginners to use this method as it is the least error-prone and non-destructive. The following instructions were adapted from the Android-x86 project, so some of the images are from them. To look at Android-x86's original installation guide, [click here.](https://www.android-x86.org/installhowto.html)
+
+## Download Bliss OS
+
+You can download a stable Bliss OS build by clicking on the link [here.](https://sourceforge.net/projects/blissos-x86/), non-stable builds can be found [here.](https://sourceforge.net/projects/blissos-x86/)
+
+## Install Bliss OS
+
+{% hint style="info" %} The Bliss OS .exe installer can be found inside the ISO you downloaded, extract it and open. {% endhint %}
 
 When booting into the installer, choose "Installation - Install Android-x86 to harddisk":
 
