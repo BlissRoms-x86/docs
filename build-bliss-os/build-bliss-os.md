@@ -173,7 +173,7 @@ After that, you can build your release file:
 
 	bash build-x86.sh android_x86_64-userdebug (to build the userdebug version for x86_64 CPUs)
 
-## Advanced Build Instructions
+## Advanced build instructions
 
 Set up the build environment:
 
