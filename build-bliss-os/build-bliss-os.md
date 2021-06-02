@@ -116,10 +116,7 @@ Problems syncing? :
 
 `repo` will start downloading all the code. That’s going to be slow, even on a fiber network. Expect downloads to take more than a couple hours.
 
-{% hint style="info" %} To find out how many CPU threads you have, run `nproc.`
-Output should be something like this:
-    mybuildbox@test:~$ nproc
-    24 {% endhint %}
+{% hint style="info" %} To find out how many CPU threads you have, run `nproc`. {% endhint %}
 
 ## Easy build instructions
 
