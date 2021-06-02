@@ -16,7 +16,7 @@ You can download a stable Bliss OS build by clicking on the link [here.](https:/
 
 ## Install Bliss OS
 
-{% hint style="info" %} The Bliss OS .exe installer can be found inside the ISO you downloaded, extract it and open. {% endhint %}
+{% hint style="info" %} The Bliss OS .exe installer can be found inside the ISO you downloaded, extract it and open it. {% endhint %}
 
 When booting into the installer, choose "Installation - Install Android-x86 to harddisk":
 
