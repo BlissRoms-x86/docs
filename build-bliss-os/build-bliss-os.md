@@ -114,18 +114,14 @@ Problems syncing? :
 
 `-c` is for pulling in only the current branch, instead of the entire history. This is useful if you need the downloads fast and don’t want the entire history to be downloaded. This is used by default unless specified otherwise.
 
-### I still don't know how much CPU threads I have. How do I check?
-
-Run `nproc`. The output should be something like this:
-
-    mybuildbox@test:~$ nproc
-    24
-
-This means that there are 24 threads in your machine.
-
 `repo` will start downloading all the code. That’s going to be slow, even on a fiber network. Expect downloads to take more than a couple hours.
 
-## Easy Build Instructions
+{% hint style="info" %} To find out how many CPU threads you have, run `nproc.`
+Output should be something like this:
+    mybuildbox@test:~$ nproc
+    24 {% endhint %}
+
+## Easy build instructions
 
 This will build an x86 based .ISO for PCs.
 
@@ -230,7 +226,7 @@ If you want to customize your thread count (maybe you're building with a fan-scr
 
 There are two outcomes to a build - either it fails and you get a red error message from `make`, or it succeeds and you see the Bliss logo in ASCII. If you encounter the former, you need to go back and fix whatever it's complaining about. Typically, 90% of the time the problem will be in your device tree. For the other 10%, submit a bug report to the ROM developers. Be sure to include the full log of your build to help diagnose the problem, and your device tree.
 
-If you face the latter, congratulations! You've successfully built BlissRoms for your device. Grab the artifacts for your device:
+If you face the latter, congratulations! You've successfully built Bliss ROM for your device. Grab the artifacts for your device:
 
     cd out/target/product/x86_64/
 
@@ -272,7 +268,7 @@ And run our build command again to generate the `.iso` with the target kernel we
 
 We use a patching method we adapted for Bliss from Intel's Project Celadon & phh-treble. This patching system allows us to bring in a good number of commits to add to the OS, and test how they apply or if there are any conflicts.
 
-Our intention was to make a system that can add all the needed x86/x86_64 commits to BlissROM, as well as other ROMs too.
+Our intention was to make a system that can add all the needed x86/x86_64 commits to Bliss ROM, as well as other ROMs too.
 
 The majority of this system is found in `vendor/x86/utils`.
 
@@ -314,4 +310,4 @@ If something goes wrong and you've tried everything above, first use Google to l
 
 Building a ROM is very hard and tedious and the results are very rewarding! If you managed to follow along, congratulations!
 
-After you finish building, you can try out the Git Started guide. Make changes, commit, and send them off to our GitHub for Bliss OS repos & our Gerrit for review on BlissROMs repos! Or better yet, download experimental commits not ready for the mainline repositories and review them! Again, ROM building is a fun project you can work with. I hope this guide was a lot of fun to run through!
+After you finish building, you can try out the Git Started guide. Make changes, commit, and send them off to our GitHub for Bliss OS repos & our Gerrit for review on Bliss ROM repos! Or better yet, download experimental commits not ready for the mainline repositories and review them! Again, ROM building is a fun project you can work with. I hope this guide was a lot of fun to run through!
