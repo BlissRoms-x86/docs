@@ -1,0 +1,6 @@
+# This is an ignore file for GitBook, do not add anything else to it except files that GitBook should ignore.
+
+CONTRIBUTING.md
+LICENSE.md
+CODE_OF_CONDUCT.md
+.github/*
