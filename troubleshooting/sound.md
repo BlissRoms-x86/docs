@@ -17,7 +17,7 @@ The next thing to try is to:
 1. Open Play Store
 2. Install "Volume Booster GOODEV" or any other sound booster app
 3. Open the AudioFX app if installed and turn it off
-4. Go to Home and open the Volume Boost app and boost it to 15%-25% and test
+4. Go to Home, open the Volume Boost app and boost it to 15%-25% and test
 
 This will solve most sound issues. 
 
