@@ -12,3 +12,7 @@
 
 * [Build Bliss OS](build-bliss-os/build-bliss-os.md)
 
+## Troubleshooting
+
+* [Sound](troubleshooting/sound.md)
+

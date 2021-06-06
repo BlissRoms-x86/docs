@@ -2,7 +2,7 @@
 description: Install Bliss OS from Windows operating system
 ---
 
-# Install Bliss OS from Windows
+# Install from Windows
 
 ## Introduction
 
@@ -16,7 +16,9 @@ You can download a stable Bliss OS build by clicking on the link [here](https://
 
 ## Install Bliss OS
 
-{% hint style="info" %} The Bliss OS .exe installer can be found inside the ISO you downloaded, extract it and open it. {% endhint %}
+{% hint style="info" %}
+The Bliss OS .exe installer can be found inside the ISO you downloaded, extract it and open it.
+{% endhint %}
 
 When booting into the installer, choose "Installation - Install Android-x86 to harddisk":
 
@@ -26,7 +28,7 @@ Once the installer boots, you will be asked to select the target drive. Choose t
 
 ![beginner-installation-install-2](https://i.imgur.com/fpMo5GS.png)
 
-Choose "Do not re-format" on the next screen. It is important that you choose "Do not re-format", as any other option will cause the installer to continue with the ["Bootable installation method"](#bootable-installation-method-mbruefiesp-3264-bit), which **will** result in **permanent data loss**, including your Windows partition!
+Choose "Do not re-format" on the next screen. It is important that you choose "Do not re-format", as any other option will cause the installer to continue with the ["Bootable installation method"](install-from-windows.md#bootable-installation-method-mbruefiesp-3264-bit), which **will** result in **permanent data loss**, including your Windows partition!
 
 ![beginner-installation-install-3](https://i.imgur.com/QSDt8ia.png)
 
@@ -45,3 +47,4 @@ The installer will begin to write the changes to the disk. This will take some t
 Then the installer will ask you how much space you want to allocate for the data image. Most users choose 8 GB, 16 GB, or 32 GB.
 
 Congratulations! You should now have a functional dual-boot with Bliss OS!
+
