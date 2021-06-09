@@ -65,7 +65,7 @@ Representation of a project may be further defined and clarified by project main
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the project maintainers responsible for enforcement at
-integrity@blissos.io.
+integrity@blissos.org.
 Participants warned to stop any harassing behavior are expected to comply immediately; failure to do so will result in an escalation of consequences.
 All complaints will be reviewed and investigated promptly and fairly.
 
