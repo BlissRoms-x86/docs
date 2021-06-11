@@ -2,7 +2,7 @@
 description: Instructions on how to build Bliss OS yourself
 ---
 
-# Build Bliss OS
+# Build Bliss OS 11.x
 
 ## Introduction
 
