@@ -20,7 +20,7 @@ Grab the latest build of Bliss OS 7.x/10.x/11.x/12.x/14.x
 
 Then, make a folder called `android`.
 
-Now, open up the `.iso` in an archive program. Extract the following files form the root directory of the `.iso` image to the USB drive's `android` folder:
+Now, open up the `.iso` in an archive program. Extract the following files form the root directory of the `.iso` image to the USB drive's `android` folder \( ramdisk.img is not used in Android 10+ \):
 
 * `initrd.img`
 * `ramdisk.img`

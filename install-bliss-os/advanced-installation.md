@@ -2,24 +2,6 @@
 
 This is only for **advanced users**. For regular users, please visit our main [Installation Guide found here.](installation-guide.md)
 
-## Windows-based installer - UEFI/ESP \(64-bit\)
-
-This method is **no longer supported** due to too many people not understanding computer basics and breaking things. **Proceed at your own risk.** This method might be the easiest currently if you understand what you are doing.
-
-For the overall instructions on using this method, please refer to the [tool's original thread](https://forum.xda-developers.com/android/software/winapp-android-x86-installer-uefi-t3222483). The tools have been updated by Team Bliss for easy installation on UEFI/ESP machines. The [builds we produce can be found here.](https://github.com/BlissRoms-x86/Androidx86-Installer-for-Windows/tree/master/bin) And the [source for those builds can be found here.](https://github.com/BlissRoms-x86/Androidx86-Installer-for-Windows) This tool should work on Remix OS as well, but this has not been tested yet.
-
-### Part 1 - Using the Installer
-
-The installer has been updated to accept the `.iso` files for our 8.x/10.x/11.x releases. Just follow the prompts the installer gives. Refer to the original thread for any questions, and please search before asking.
-
-If you plan on using root, the process will require you to manually extract the system.img from within the system.sfs file. Then you must delete the system.sfs file after extracting.
-
-**Warning** - for Pie, you will need to add `androidboot.hardware=android_x86_64` to the grub entry in order to boot!
-
-### Part 2 - Switching the UEFI/EFI boot entry
-
-Option one is to use the EasyUEFI tool, then switch the UEFI/EFI entry it created to boot first. Close and reboot. Option two is to use your BIOS to select the added UEFI boot entry.
-
 ## Custom Install - Bliss OS 8.x/10.x/11.x UEFI/ESP \(64-bit\)
 
 Just as a reminder, Team Bliss is **NOT** responsible for any damage caused by this guide. By continuing, you automatically agree to these terms.
