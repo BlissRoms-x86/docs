@@ -16,6 +16,7 @@
 
 * [Build Bliss OS 11.x](build-bliss-os/build-bliss-os.md)
 * [Build Bliss OS 14.x](build-bliss-os/build-bliss-os-14.x.md)
+* [Maintaining Proper Authorship](build-bliss-os/maintaining-proper-authorship.md)
 
 ## Troubleshooting
 
