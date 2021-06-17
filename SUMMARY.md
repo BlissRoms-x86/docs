@@ -6,7 +6,8 @@
 
 * [Live boot Bliss OS](install-bliss-os/live-boot-bliss-os.md)
 * [Install from Windows](install-bliss-os/install-from-windows.md)
-* [Install in a Virtual Machine](install-bliss-os/install-in-a-virtual-machine.md)
+* [Install in a Virtual Machine](install-bliss-os/install-in-a-virtual-machine/README.md)
+  * [Install in VirtualBox](install-bliss-os/install-in-a-virtual-machine/install-in-virtualbox.md)
 * [Advanced Installation](install-bliss-os/advanced-installation.md)
 
 ## Build Bliss OS
