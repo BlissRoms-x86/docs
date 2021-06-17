@@ -4,6 +4,10 @@
 
 ## Starting Off
 
+{% hint style="info" %}
+We also offer [Android-Generic Project 2.0](https://github.com/android-generic/vendor_ag) as an easy to learn method of building Android 11 for PC's. Checkout the project README.md for more info. 
+{% endhint %}
+
 Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com), [phhusson](https://github.com/phhusson/treble_manifest) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
