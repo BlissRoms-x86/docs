@@ -17,7 +17,7 @@ You can download a stable Bliss OS build by clicking on the link [here](https://
 ## Install Bliss OS
 
 {% hint style="info" %}
-If you are looking for a GUI based installer for Windows, we do include one in the .iso, and we also support the [Supreme-Gamers Advanced Android-x86 Installer](https://supreme-gamers.com/r/advanced-android-x86-installer-for-windows.61/)
+If you are looking for a GUI based installer for Windows, we do include one in some of the .iso's we produce, and we also support the [Supreme-Gamers Advanced Android-x86 Installer](https://supreme-gamers.com/r/advanced-android-x86-installer-for-windows.61/)
 {% endhint %}
 
 When booting into the installer, choose "Installation - Install Android-x86 to harddisk":
