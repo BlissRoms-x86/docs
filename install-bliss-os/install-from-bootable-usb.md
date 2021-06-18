@@ -28,7 +28,7 @@ Once the installer boots, you will be asked to select the target drive. Choose t
 
 ![beginner-installation-install-2](https://i.imgur.com/fpMo5GS.png)
 
-Choose "Do not re-format" on the next screen. It is important that you choose "Do not re-format", as any other option will cause the installer to continue with the ["Bootable installation method"](install-from-windows.md#bootable-installation-method-mbruefiesp-3264-bit), which **will** result in **permanent data loss**, including your Windows partition!
+Choose "Do not re-format" on the next screen. It is important that you choose "Do not re-format", as any other option will cause the installer to continue with the ["Bootable installation method"](install-from-bootable-usb.md#bootable-installation-method-mbruefiesp-3264-bit), which **will** result in **permanent data loss**, including your Windows partition!
 
 ![beginner-installation-install-3](https://i.imgur.com/QSDt8ia.png)
 
