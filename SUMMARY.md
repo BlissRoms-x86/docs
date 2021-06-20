@@ -31,4 +31,5 @@
 * [Microsoft Surface IPTS Gearlock Package](troubleshooting/microsoft-surface-ipts-gearlock-package.md)
 * [Not booting after install on Linux](troubleshooting/not-booting-after-install-on-linux.md)
 * [How to mount ext partition on boot](troubleshooting/untitled.md)
+* [How to mount internal NTFS partition on boot](troubleshooting/how-to-mount-internal-ntfs-partition-on-boot.md)
 
