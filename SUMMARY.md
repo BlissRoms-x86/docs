@@ -21,5 +21,6 @@
 
 ## Troubleshooting
 
+* [Remount system as Read/Write](troubleshooting/remount-system-as-read-write.md)
 * [Sound](troubleshooting/sound.md)
 
