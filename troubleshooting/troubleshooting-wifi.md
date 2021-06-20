@@ -1,4 +1,4 @@
-# Wifi
+# Wifi Issues
 
 For many users, wifi is not detected right on boot. If you are using a build that is pre Kernel-5.x, you can try and add the grub option "AUTO\_LOAD=old". If you are using a newer kernel \(5.0+\), make sure your device has native support included in the kernel. Some devices may also require the grub option "VULKAN=1" or "GRALLOC=gbm" too.
 
