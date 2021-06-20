@@ -19,6 +19,7 @@
 * [Build Bliss OS 14.x](development/build-bliss-os-14.x.md)
 * [Development FAQ](development/development-faq.md)
 * [Maintaining Proper Authorship](development/maintaining-proper-authorship.md)
+* [Contributing Documentation](development/contributing-documentation.md)
 * [What are Linux Drivers?](development/what-are-linux-drivers.md)
 
 ## Troubleshooting
