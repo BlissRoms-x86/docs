@@ -44,3 +44,12 @@ Option 2: Hit Start Button &gt; Settings &gt; Update & Security &gt; Recovery, a
 This will start to restart your PC, and show a Blue screen \(Metro bootloader\) where you will want to select "Use a Device"  
 Then on the next screen, your Android install will show up as either Bliss OS, Android OS or Linpus Lite. Select that, and it will reboot to grub and let you select the boot options for Android from there.
 
+**Troubleshooting Installer Issues:**
+
+Sometimes, the windows installer will fail with: Error output: The directory is not empty. 
+
+This means that windows currently has something mounted at Z: or your EFI is mounted elsewhere. To fix it, launch CMD as Administrator \(Ctrl-Shift-LClick\), and type: `mountvol Z: /S   
+mountvol Z: /D`
+
+Then relaunch the installer and try again.
+
