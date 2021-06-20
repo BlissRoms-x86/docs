@@ -27,4 +27,5 @@
 * [Remount system as Read/Write](troubleshooting/remount-system-as-read-write.md)
 * [Sound](troubleshooting/sound.md)
 * [Where is the Keymapper?](troubleshooting/where-is-the-keymapper.md)
+* [Troubleshooting Wifi](troubleshooting/troubleshooting-wifi.md)
 
