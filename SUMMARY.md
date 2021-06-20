@@ -24,6 +24,7 @@
 ## Troubleshooting
 
 * [How to Log](troubleshooting/how-to-log.md)
+* [Debug Booting](troubleshooting/debug-booting.md)
 * [Remount system as Read/Write](troubleshooting/remount-system-as-read-write.md)
 * [Sound](troubleshooting/sound.md)
 * [Where is the Keymapper?](troubleshooting/where-is-the-keymapper.md)
