@@ -12,11 +12,11 @@
 * [Syslinux EFI Stub Installation](install-bliss-os/syslinux-efi-stub-installation.md)
 * [Advanced Installation](install-bliss-os/advanced-installation.md)
 
-## Build Bliss OS
+## Development
 
-* [Build Bliss OS 11.x](build-bliss-os/build-bliss-os-11.x.md)
-* [Build Bliss OS 14.x](build-bliss-os/build-bliss-os-14.x.md)
-* [Maintaining Proper Authorship](build-bliss-os/maintaining-proper-authorship.md)
+* [Build Bliss OS 11.x](development/build-bliss-os-11.x.md)
+* [Build Bliss OS 14.x](development/build-bliss-os-14.x.md)
+* [Maintaining Proper Authorship](development/maintaining-proper-authorship.md)
 
 ## Troubleshooting
 

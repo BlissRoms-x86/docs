@@ -8,7 +8,7 @@ For the overall instructions on using this method, please refer to the [tool's o
 
 ### Part 1 - Downloading the Installer
 
-We normally include the installer in our .iso, but with some builds, it may not be included. So we make a few alternate versions of the Windows Installer available for users. 
+We normally include the installer in our .iso, but with some builds, it may not be included. So we make a few alternate versions of the Windows Installer available for users.
 
 * Installer for Android 9 and below -  [Androidx86-Installv26.0003.exe](https://github.com/BlissRoms-x86/Androidx86-Installer-for-Windows/blob/q10-2.8/bin/Androidx86-Installv26.0003.exe)
 * Installer for Android 10 and above -  [Androidx86-Installv28.5800.exe](https://github.com/BlissRoms-x86/Androidx86-Installer-for-Windows/blob/q10-2.8/bin/Androidx86-Installv28.5800.exe)
@@ -20,11 +20,11 @@ The installer has been updated to accept the `.iso` files for our 8.x/10.x/11.x/
 
 It will initially ask if you want to install Bliss OS, select "Yes":
 
-![Using the installer](../.gitbook/assets/images/install-bliss-os/install-from-windows-uefi-esp-64-bit/using-the-installer.png)
+![Using the installer](../.gitbook/assets/using-the-installer.png)
 
 It will then extract the installer resources, and load the main window:
 
-![Installation window](../.gitbook/assets/images/install-bliss-os/install-from-windows-uefi-esp-64-bit/installation-window.png)
+![Installation window](../.gitbook/assets/installation-window.png)
 
 1. You will want to start by selecting an Android OS Image \(Bliss OS, Phoenix OS Darkmatter, Android-x86, etc\)
 2. Then make sure you target your current Windows drive \(typically C:\\)
@@ -37,10 +37,10 @@ It will then extract the installer resources, and load the main window:
 
 Option 1: Use the EasyUEFI tool, then switch the UEFI/EFI entry it created to boot first. Close and reboot. Option two is to use your BIOS to select the added UEFI boot entry.
 
-Option 2: Hit Start Button &gt; Settings &gt; Update & Security &gt; Recovery, and select the Restart Now button under Advanced Startup. 
+Option 2: Hit Start Button &gt; Settings &gt; Update & Security &gt; Recovery, and select the Restart Now button under Advanced Startup.
 
-![Advanced startup](../.gitbook/assets/images/install-bliss-os/install-from-windows-uefi-esp-64-bit/advanced-startup.png)
+![Advanced startup](../.gitbook/assets/advanced-startup.png)
 
 This will start to restart your PC, and show a Blue screen \(Metro bootloader\) where you will want to select "Use a Device"  
-Then on the next screen, your Android install will show up as either Bliss OS, Android OS or Linpus Lite. Select that, and it will reboot to grub and let you select the boot options for Android from there. 
+Then on the next screen, your Android install will show up as either Bliss OS, Android OS or Linpus Lite. Select that, and it will reboot to grub and let you select the boot options for Android from there.
 
