@@ -1,4 +1,4 @@
-# Untitled
+# How to mount partition on boot
 
 User cjeu100 put together a script that works well from our Android 9 builds. Follow the link below to head to that post.
 
