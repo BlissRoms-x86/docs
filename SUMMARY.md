@@ -28,4 +28,5 @@
 * [Sound](troubleshooting/sound.md)
 * [Where is the Keymapper?](troubleshooting/where-is-the-keymapper.md)
 * [Wifi](troubleshooting/troubleshooting-wifi.md)
+* [Microsoft Surface IPTS Gearlock Package](troubleshooting/microsoft-surface-ipts-gearlock-package.md)
 
