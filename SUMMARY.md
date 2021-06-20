@@ -30,4 +30,5 @@
 * [Wifi](troubleshooting/troubleshooting-wifi.md)
 * [Microsoft Surface IPTS Gearlock Package](troubleshooting/microsoft-surface-ipts-gearlock-package.md)
 * [Not booting after install on Linux](troubleshooting/not-booting-after-install-on-linux.md)
+* [Untitled](troubleshooting/untitled.md)
 
