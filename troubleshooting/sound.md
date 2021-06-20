@@ -2,7 +2,7 @@
 description: Troubleshoot sound issues in Bliss OS
 ---
 
-# Sound
+# Sound Issues
 
 Sometimes the results of running
 

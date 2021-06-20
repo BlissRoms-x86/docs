@@ -24,11 +24,9 @@
 
 ## Troubleshooting
 
-* [How to Log](troubleshooting/how-to-log.md)
 * [Debug Booting](troubleshooting/debug-booting.md)
 * [Remount system as Read/Write](troubleshooting/remount-system-as-read-write.md)
-* [Sound](troubleshooting/sound.md)
-* [Where is the Keymapper?](troubleshooting/where-is-the-keymapper.md)
+* [Sound Issues](troubleshooting/sound.md)
 * [Wifi](troubleshooting/troubleshooting-wifi.md)
 * [Microsoft Surface IPTS Gearlock Package](troubleshooting/microsoft-surface-ipts-gearlock-package.md)
 * [Not booting after install on Linux](troubleshooting/not-booting-after-install-on-linux.md)
