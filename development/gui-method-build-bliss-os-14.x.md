@@ -1,7 +1,5 @@
 # \[GUI Method\] Build Bliss OS 14.x
 
-
-
 ## **1. Setting up the environment** <a id="UsingWithBlissOSSource:-1.Settinguptheenvironment"></a>
 
 This first part will go over the steps needed to sync and setup your Build Environment for Bliss OS 14.3 source. If you have done that already, you can skip to the next section.  
