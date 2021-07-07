@@ -1,5 +1,7 @@
 # Manual Install on Linux
 
+## Installation
+
 Create a directory at / as /blissos
 
 1. Extract initrd.img, ramdisk.img, kernel and system.\* from your desired blissOS ISO into the /blissos directory.
@@ -10,4 +12,8 @@ Create a directory at / as /blissos
      linux /$SOURCE_NAME/kernel quiet root=/dev/ram0 androidboot.hardware=android_x86_64 androidboot.selinux=permissive acpi_sleep=s3_bios,s3_mode SRC=/$SOURCE_NAME   
      initrd /$SOURCE_NAME/initrd.img  
 }`
+
+### **Example for making a 8gb image:** 
+
+`dd if=/dev/zero of=data.img bs=1 count=0 seek=$[1G*8]`
 
