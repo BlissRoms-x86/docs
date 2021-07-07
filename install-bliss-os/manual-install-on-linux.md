@@ -7,7 +7,7 @@ Create a directory at / as /blissos
 3. Create a new grub entry with this the following code: 
 
 `menuentry "BlissOS" { set SOURCE_NAME="blissos" search --set=root --file /$SOURCE_NAME/kernel   
-     linux /$SOURCE_NAME/kernel quiet root=/dev/ram0 androidboot.selinux=permissive acpi_sleep=s3_bios,s3_mode SRC=/$SOURCE_NAME   
+     linux /$SOURCE_NAME/kernel quiet root=/dev/ram0 androidboot.hardware=android_x86_64androidboot.selinux=permissive acpi_sleep=s3_bios,s3_mode SRC=/$SOURCE_NAME   
      initrd /$SOURCE_NAME/initrd.img  
 }`
 
