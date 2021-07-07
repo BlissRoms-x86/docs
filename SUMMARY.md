@@ -12,6 +12,7 @@
 * [Syslinux EFI Stub Installation](install-bliss-os/syslinux-efi-stub-installation.md)
 * [Updating Bliss OS/AG builds](install-bliss-os/updating-bliss-os-ag-builds.md)
 * [Advanced Installation](install-bliss-os/advanced-installation.md)
+* [Manual Install on Linux](install-bliss-os/manual-install-on-linux.md)
 
 ## Development
 
