@@ -16,6 +16,7 @@
 
 ## Development
 
+* [\[GUI Method\] Build Bliss OS 14.x](development/gui-method-build-bliss-os-14.x.md)
 * [Build Bliss OS 11.x](development/build-bliss-os-11.x.md)
 * [Build Bliss OS 14.x](development/build-bliss-os-14.x.md)
 * [Development FAQ](development/development-faq.md)
