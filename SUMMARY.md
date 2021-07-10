@@ -13,6 +13,7 @@
 * [Updating Bliss OS/AG builds](install-bliss-os/updating-bliss-os-ag-builds.md)
 * [Advanced Installation](install-bliss-os/advanced-installation.md)
 * [Manual Install on Linux](install-bliss-os/manual-install-on-linux.md)
+* [Run from Docker](install-bliss-os/run-from-docker.md)
 
 ## Development
 
