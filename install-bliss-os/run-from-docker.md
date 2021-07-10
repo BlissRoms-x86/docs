@@ -6,6 +6,36 @@ Our stable Android 9 based images are default, but you can load up a specific im
 
 #### Exerpt below taken from: [https://github.com/sickcodes/dock-droid](https://github.com/sickcodes/dock-droid)
 
+## Initial setup
+
+Before you do anything else, you will need to turn on hardware virtualization in your BIOS. Precisely how will depend on your particular machine \(and BIOS\), but it should be straightforward.
+
+Then, you'll need QEMU and some other dependencies on your host:
+
+```text
+# ARCH
+sudo pacman -S qemu libvirt dnsmasq virt-manager bridge-utils flex bison iptables-nft edk2-ovmf
+
+# UBUNTU DEBIAN
+sudo apt install qemu qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager
+
+# CENTOS RHEL FEDORA
+sudo yum install libvirt qemu-kvm
+```
+
+Then, enable libvirt and load the KVM kernel module:
+
+```text
+sudo systemctl enable --now libvirtd
+sudo systemctl enable --now virtlogd
+
+echo 1 | sudo tee /sys/module/kvm/parameters/ignore_msrs
+
+sudo modprobe kvm
+```
+
+## Quick Start
+
 ### Run Bliss OS 11.x Image [![https://img.shields.io/docker/image-size/sickcodes/dock-droid/latest?label=sickcodes%2Fdock-droid%3Alatest](https://camo.githubusercontent.com/efcc83e99f50dcdb78a8e0dd46e66ebb79aeb3d7a2539c9367e7be7c6fdd96b8/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f696d6167652d73697a652f7369636b636f6465732f646f636b2d64726f69642f6c61746573743f6c6162656c3d7369636b636f646573253246646f636b2d64726f69642533416c6174657374)](https://hub.docker.com/r/sickcodes/dock-droid/tags?page=1&ordering=last_updated)
 
 ```text
@@ -121,4 +151,6 @@ In the Android terminal emulator, run `adbd`
 Then from the host, you can can connect using either: `adb connect localhost:5555`
 
 `adb connect 172.17.0.2:5555`
+
+For further information, and even information. on a dockerized build environment for Bliss OS, please visit: [https://github.com/sickcodes/dock-droid](https://github.com/sickcodes/dock-droid)
 
