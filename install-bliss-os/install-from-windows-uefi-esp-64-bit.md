@@ -1,5 +1,9 @@
 # Install from Windows - UEFI/ESP \(64-bit\)
 
+### Before you begin
+
+For 32bit or MBR/Legacy install, Axon from Supreme-Gamers put together a great installer that works with MBR or EFI and installs on NTFS or EXT4. Check it out here: [https://supreme-gamers.com/t/advanced-android-x86-installer-for-windows.300/](https://supreme-gamers.com/t/advanced-android-x86-installer-for-windows.300/)
+
 ## Windows-based installer - UEFI/ESP \(64-bit\)
 
 **Proceed at your own risk.** This method might be the easiest currently if you understand what you are doing.
