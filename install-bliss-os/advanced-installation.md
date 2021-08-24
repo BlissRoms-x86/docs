@@ -65,7 +65,7 @@ The above may not work for all devices, as some handle UEFI differently.
 
 Let's start by downloading the required files. [Here is a customized UEFI boot for 32/64-bit machines.](https://www.androidfilehost.com/?w=files&flid=143191)
 
-Please note that if you came from our Nougat builds to our Bliss OS 8.x builds, you will have to edit the `grub.cfga`.
+Please note that if you came from our Nougat builds to our Bliss OS 8.x builds, you will have to edit the `grub.cfg`.
 
 If you are using Bliss OS 8.x/10.x, please use the `grub` entry below as a guide:
 
