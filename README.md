@@ -6,5 +6,5 @@ description: Documentation for Bliss OS
 
 ## Table of contents
 
-* [Table Of Contents(SUMMARY.md)
+* [Table Of Contents](SUMMARY.md)
 
