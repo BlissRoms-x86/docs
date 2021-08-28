@@ -41,7 +41,7 @@ This will launch the rEFInd installation script and will install the boot manage
 
 11. rEFInd will also provide you with an option to boot into the Bliss OS stick if it’s plugged in. This will launch the GRUB bootloader that comes with Bliss OS and will show you multiple options: to start Bliss OS Live which can be used to test if Bliss works on your system or to install the OS to disk.
 
-12. Choose the install option and go through the normal process. Select either the Windows partition or the new partition you created for Bliss \(my case\). Do not reformat. Choose YES when asked to install GRUB \(this will replace rEFInd temporarily\). Create the BlissOS data image with the size you want.
+12. Choose the install option and go through the normal process \([detailed here](https://docs.blissos.org/install-bliss-os/install-from-bootable-usb)\). Select either the Windows partition or the new partition you created for Bliss \(my case\). Do not reformat. Choose YES when asked to install GRUB \(this will replace rEFInd temporarily\). Create the BlissOS data image with the size you want.
 
 **Notes:** If you created a separate NTFS partition, you could choose to format it as ext3/4 during the Bliss OS installation. If you choose this option the installer will no longer ask you to create a data image.
 
