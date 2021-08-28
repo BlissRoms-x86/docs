@@ -43,7 +43,7 @@ Option 1: Use the EasyUEFI tool, then switch the UEFI/EFI entry it created to bo
 
 Option 2: Hit Start Button &gt; Settings &gt; Update & Security &gt; Recovery, and select the Restart Now button under Advanced Startup.
 
-![Advanced startup](../.gitbook/assets/advanced-startup.png)
+![Advanced startup](../.gitbook/assets/advanced-startup%20%281%29%20%281%29.png)
 
 This will start to restart your PC, and show a Blue screen \(Metro bootloader\) where you will want to select "Use a Device"  
 Then on the next screen, your Android install will show up as either Bliss OS, Android OS or Linpus Lite. Select that, and it will reboot to grub and let you select the boot options for Android from there.

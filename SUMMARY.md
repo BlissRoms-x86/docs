@@ -14,6 +14,7 @@
 * [Advanced Installation](install-bliss-os/advanced-installation.md)
 * [Manual Install on Linux](install-bliss-os/manual-install-on-linux.md)
 * [Run from Docker](install-bliss-os/run-from-docker.md)
+* [Install on Mac OS](install-bliss-os/install-on-mac-os.md)
 
 ## Development
 
