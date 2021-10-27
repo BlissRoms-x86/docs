@@ -9,6 +9,7 @@
 * [Install from Windows - UEFI/ESP \(64-bit\)](install-bliss-os/install-from-windows-uefi-esp-64-bit.md)
 * [Install in a Virtual Machine](install-bliss-os/install-in-a-virtual-machine/README.md)
   * [Install in VirtualBox](install-bliss-os/install-in-a-virtual-machine/install-in-virtualbox.md)
+  * [Install in Qemu](install-bliss-os/install-in-a-virtual-machine/install-in-qemu.md)
 * [Syslinux EFI Stub Installation](install-bliss-os/syslinux-efi-stub-installation.md)
 * [Updating Bliss OS/AG builds](install-bliss-os/updating-bliss-os-ag-builds.md)
 * [Advanced Installation](install-bliss-os/advanced-installation.md)
