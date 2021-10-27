@@ -45,7 +45,7 @@ Below is a sample bash script used to run Bliss14 in a Qemu VM
  -m 4096 -smp 4 -cpu kvm64 \
  -bios /usr/share/ovmf/x64/OVMF.fd \
  -drive file=disks/bliss14-k54-gapps.qcow2,if=virtio \
- -cdrom images/Bliss-v11.iso \
+ -cdrom images/Bliss14-k54-gapps.iso \
  -usb \
  -device usb-tablet \
  -device usb-kbd \
@@ -54,6 +54,10 @@ Below is a sample bash script used to run Bliss14 in a Qemu VM
  -device virtio-vga-gl -display sdl,gl=on \
  -net nic,`model=virtio-net-pci` -net user,hostfwd=tcp::4444-:5555
  ```
+
+If you don't want an indepth explanation, you can skip the next section, Just make sure to replace `-drive` and `-cdrom` with the proper disk image, and cdrom image for your use.
+
+## Explanation 
 
 While this looks a little complicated, when we break this down we can see that it isn't. we are just telling Qemu what we want our virtual machine to have attached to it. if you don
   
@@ -88,7 +92,6 @@ While this looks a little complicated, when we break this down we can see that i
 `-display sdl,gl=on` This is used for the display, there are three main options here `-display sdl,gl=on` `display gtk.sdl-on` and `-display spice-app,gl=on` The difference between these is personal preference. be warned that even if you close the VM's window with `-display spice-app,gl=on` the VM will still be running, you will need to kill it from the terminal.
 
 `-net nic,model=virtio-net-pci -net user,hostfwd=tcp::4444-:5555` This really long command is the network command, `-net nic,model=virtio-net-pci` is what is used to add the network device to the guest in which case we are using virtio drivers again for best performance. `-net user` tells qemu how to pass the network through and the argument `hostfwd=tcp::4444-:5555` forwards port 4444 and port 5555 together, meaning if we open another terminal and type `adb connect localhost:4444` we can get an adb connection to the VM. 
-
 
 
 ## Install
