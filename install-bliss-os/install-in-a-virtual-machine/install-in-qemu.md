@@ -1,11 +1,7 @@
 ---
-
 layout: post
-
 title: 'Bliss OS: How to install Bliss OS on Qemu'
-
 date: '2021-10-27'
-
 ---
 # Install with Qemu Script
 
