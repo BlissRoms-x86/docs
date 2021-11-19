@@ -8,5 +8,7 @@ This method is **incomplete**, a **work-in-progress**. Android in general does n
 
 {% page-ref page="install-in-virtualbox.md" %}
 
+{% page-ref page="install-in-qemu.md" %}
+
 
 
