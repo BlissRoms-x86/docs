@@ -50,7 +50,7 @@ Congratulations! You should now have a functional dual-boot with Bliss OS!
 
 # Install EFI From Bootable USB
 
-# Download Bliss OS
+## Download Bliss OS
 
 You can download a stable Bliss OS build by clicking on the link [here](https://sourceforge.net/projects/blissos-x86/), non-stable builds can be found [here.](https://sourceforge.net/projects/blissos-x86/)
 
@@ -66,13 +66,13 @@ When booting into the installer, choose "Android-x86 ... Installation":
 
 Once the installer boots, you will be asked to select the target drive. You will need to choose what drive to install it too, this could be a pre-existing install of something, or a new drive, shown will be a new drive. you will need to select "Create/Modify partitions" 
 
-% hint style="info" %}
+{% hint style="info" %}
 WARNING THIS WILL DELETE ANY DATA ON THE DRIVE
 {% endhint %}
 
 ![Partitioning p1](../.gitbook/assets/uefi-create.png)
 
-in the next screen, we need to make **two** partiitons for this to work, as Bliss needs to install a bootloader to boot to. if you have a pre-existing install of linux, this step may be unnecessary.
+In the next screen, we need to make **two** partiitons for this to work, as Bliss needs to install a bootloader to boot to. if you have a pre-existing install of linux, this step may be unnecessary.
 
 First create the EFI partition, this is the partition that is used to install the bootloader. 
 
