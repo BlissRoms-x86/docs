@@ -6,7 +6,7 @@
 
 * [Live boot Bliss OS](install-bliss-os/live-boot-bliss-os.md)
 * [Install From Bootable USB](install-bliss-os/install-from-bootable-usb.md)
-* [Install from Windows - UEFI/ESP \(64-bit\)](install-bliss-os/install-from-windows-uefi-esp-64-bit.md)
+* [Install from Windows - UEFI/ESP (64-bit)](install-bliss-os/install-from-windows-uefi-esp-64-bit.md)
 * [Install in a Virtual Machine](install-bliss-os/install-in-a-virtual-machine/README.md)
   * [Install in VirtualBox](install-bliss-os/install-in-a-virtual-machine/install-in-virtualbox.md)
   * [Install in Qemu](install-bliss-os/install-in-a-virtual-machine/install-in-qemu.md)
@@ -16,6 +16,7 @@
 * [Manual Install on Linux](install-bliss-os/manual-install-on-linux.md)
 * [Run from Docker](install-bliss-os/run-from-docker.md)
 * [Install on Mac OS](install-bliss-os/install-on-mac-os.md)
+* [Using Auto-Install](install-bliss-os/using-auto-install.md)
 
 ## Development
 
@@ -27,4 +28,3 @@
 * [Contributing Documentation](development/contributing-documentation.md)
 * [What are Linux Drivers?](development/what-are-linux-drivers.md)
 * [Porting Linux Drivers](development/porting-linux-drivers.md)
-
