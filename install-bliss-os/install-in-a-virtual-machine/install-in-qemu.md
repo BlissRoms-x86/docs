@@ -52,7 +52,7 @@ Below is a sample bash script used to run Bliss14 in a Qemu VM
  -device qemu-xhci,id=xhci \
  -machine vmport=off \
  -device virtio-vga-gl -display sdl,gl=on \
- -net nic,`model=virtio-net-pci` -net user,hostfwd=tcp::4444-:5555
+ -net nic,model=virtio-net-pci -net user,hostfwd=tcp::4444-:5555
  ```
 
 If you don't want an indepth explanation, you can skip the next section, Just make sure to replace `-drive` and `-cdrom` with the proper disk image, and cdrom image for your use.
