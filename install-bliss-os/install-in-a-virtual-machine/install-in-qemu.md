@@ -93,12 +93,19 @@ While this looks a little complicated, when we break this down we can see that i
 
 `-net nic,model=virtio-net-pci -net user,hostfwd=tcp::4444-:5555` This really long command is the network command, `-net nic,model=virtio-net-pci` is what is used to add the network device to the guest in which case we are using virtio drivers again for best performance. `-net user` tells Qemu how to pass the network through and the argument `hostfwd=tcp::4444-:5555` forwards port 4444 and port 5555 together, meaning if we open another terminal and type `adb connect localhost:4444` we can get an adb connection to the VM. 
 
-
 ## Install
 The rest of the installation is the same as real hardware. You should be able to proceed as normal. 
 
+## Known Issues
+
+Currently we cannot properly set resolution using qemu and virgl. Because of this we need to manually edit the grub file in the VM to do so. There are a plethora of ways to do this. However the easiest is to use qemu-nbd to manually edit the grub entry and use `video=1920x1080` to manually set resoltuon to 1080p. Change this value to a resolution that suits your needs.
+
+Qemu does not currently support vulkan acceleration. While there was a work in progress patch that had support. It has not made it into qemu yet, nor does it seem like it will anytime soon. You may use physical gpu passthrough to get around this issue.
+
+Qemu does not currently support video decode/encode acceleration. There is no news when this might be availible in qemu. You may use physical gpu passthrough to get around this issue.
+
 ## Additional customizations
-Qemu is an incredibly powerful tool. this quick guide barely scratches the surface of some of the advanced customizations that are possible. if you are looking for more advanced features to step up your VM. To make it closer to a hardware install. here are some potential further customizations that are possible with Qemu.
+Qemu is an incredibly powerful tool. this quick guide barely scratches the surface of some of the advanced customizations that are possible. if you are looking for more advanced features to step up your VM. To make it closer to a hardware install. Here are some potential further customizations that are possible with Qemu.
 
   1. USB passthrough
   2. EVDEV usb+mouse passthrough for easy switching
