@@ -17,7 +17,7 @@ Create a directory at / as /blissos
 
 4. Run:&#x20;
 
-`sudo update-grub`
+`sudo grub-mkconfig -o /boot/grub/grub.cfg`
 
 ### **Example for making data.img:**&#x20;
 
