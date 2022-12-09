@@ -1,0 +1,11 @@
+input: .
+output: .retype
+url: docs.blissos.org
+branding:
+  title: BlissOS
+  label: Docs
+links:
+- text: Getting Started
+  link: https://retype.com/guides/getting-started/
+footer:
+  copyright: © Copyright {{ year }} – [BlissLabs](https://blisslabs.org) – All rights reserved
